@@ -39,8 +39,11 @@ function App() {
                         variant="outlined"
                         sx={{borderColor: "white", borderRadius: 0, fontWeight: 500, float: "left"}}
                     />
-                    <Chip icon={<TouchAppIcon/>} label="Нажмите на нужного Покемона" variant="outlined"
-                          sx={{border: "none", float: "right", maxWidth: 170}}
+                    <Chip
+                        icon={<TouchAppIcon/>}
+                        label="Нажмите на нужного Покемона"
+                        variant="outlined"
+                        sx={{border: "none", float: "right", maxWidth: 170}}
                     />
                 </Grid>
                 <Grid container>
