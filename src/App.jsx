@@ -104,7 +104,7 @@ function App() {
                                     />
                                 </center>
                                 <Typography sx={{fontWeight: 300, fontSize: "17px", paddingTop: "3rem"}}
-                                            style={{lineHeight: 0.7, alignSelf: "stretch"}}>
+                                            style={{lineHeight: 0.4, alignSelf: "stretch"}}>
                                     <p>Снялся в ... сериях</p>
                                     <p>Id: {pokemonsItem.id}</p>
                                     <p>Height: {pokemonsItem.height}</p>
